@@ -1,0 +1,10 @@
+c:\users\harneet\documents\visual studio 2012\Projects\checklogfile\checklogfile\bin\Debug\checklogfile.exe.config
+c:\users\harneet\documents\visual studio 2012\Projects\checklogfile\checklogfile\bin\Debug\checklogfile.exe
+c:\users\harneet\documents\visual studio 2012\Projects\checklogfile\checklogfile\bin\Debug\checklogfile.pdb
+c:\users\harneet\documents\visual studio 2012\Projects\checklogfile\checklogfile\obj\Debug\checklogfile.exe
+c:\users\harneet\documents\visual studio 2012\Projects\checklogfile\checklogfile\obj\Debug\checklogfile.pdb
+c:\users\harneet\documents\visual studio 2012\Projects\checklogfile\checklogfile\bin\Debug\checklogfile.exe.manifest
+c:\users\harneet\documents\visual studio 2012\Projects\checklogfile\checklogfile\bin\Debug\checklogfile.application
+c:\users\harneet\documents\visual studio 2012\Projects\checklogfile\checklogfile\obj\Debug\checklogfile.csprojResolveAssemblyReference.cache
+c:\users\harneet\documents\visual studio 2012\Projects\checklogfile\checklogfile\obj\Debug\checklogfile.exe.manifest
+c:\users\harneet\documents\visual studio 2012\Projects\checklogfile\checklogfile\obj\Debug\checklogfile.application

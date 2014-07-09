@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="checklogfile.exe" version="1.0.0.1" publicKeyToken="58e26c71546352d8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="checklogfile" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="checklogfile.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="checklogfile.exe" size="6144">
+      <assemblyIdentity name="checklogfile" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sb4ITzi+uG/ZCKewT/hGEYAarPxbu9a+/ajM2ofmgH0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="checklogfile.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Harneet-THINK\Harneet" issuerKeyHash="2eb0ac789cf7691e369aa149bca3c562164d7be5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1hovTMpJrO1hS05jUsrM2E8Pjql9bcyiqA5/2El4p8E=</DigestValue></Reference></SignedInfo><SignatureValue>J+3H34b7PBRD261Ajr05f3+fO90aqZiHLTjc3MLKuP/XMIxqiYwWboHHCyCahlRPIFyhENwcbEzvwmctRjN1kNGaE+Ae04URhQhwOS/rg/3UJu7jtajWNcx8PjAPRoU6/kik6s0c0mvEIB3WiwpH2SHeJXGe4wGw6gsr3Mj4fG4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mSa13mHTWqzTrG/0EDAz0xGdkAdARdZ+4w0/3fzSwQNUczFExQOT0BgZaEvvI78OcRNEyrSXHc7nbR4W5WpZUvBjvhCxwVxSVz6HVR0pn2bfiPymGTFhPKyu2TAlSbtwEGjoZgEcQCjwuGoITYrEHrvWfbvjZJq0vBBiHPDk7bs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c1a77849d87f0ea8a2cc6d7da98e0f4fd8ccca52634e4b61edac49ca4c2f1ad6" Description="" Url=""><as:assemblyIdentity name="checklogfile.exe" version="1.0.0.1" publicKeyToken="58e26c71546352d8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Harneet-THINK\Harneet</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kfO0Hqydpun7/dLs1FuhsIl4/4nE3n4QdIcBUIVz1w8=</DigestValue></Reference></SignedInfo><SignatureValue>S4EOyvPuroJlzQlnPt/IrbI/V/cSD7eELvTvP5nJ6+kLghTBNHtX2Iqmt7t+0eJjGrYOFde+v4xBOxKkIo6ksG25PIN7s+pEX6b2gGx8XCyQl0VELhfXEZzp2uMnYgXMIEfNI73PM5ffjBKCnztEmYx7sHgXB2iHAs1D0z0YGlI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mSa13mHTWqzTrG/0EDAz0xGdkAdARdZ+4w0/3fzSwQNUczFExQOT0BgZaEvvI78OcRNEyrSXHc7nbR4W5WpZUvBjvhCxwVxSVz6HVR0pn2bfiPymGTFhPKyu2TAlSbtwEGjoZgEcQCjwuGoITYrEHrvWfbvjZJq0vBBiHPDk7bs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQH5UfppVDGL9LjiJWPGtMkTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioASABhAHIAbgBlAGUAdAAtAFQASABJAE4ASwBcAEgAYQByAG4AZQBlAHQwHhcNMTMwMTMxMjEzNjQ2WhcNMTQwMjAxMDMzNjQ2WjA1MTMwMQYDVQQDHioASABhAHIAbgBlAGUAdAAtAFQASABJAE4ASwBcAEgAYQByAG4AZQBlAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJkmtd5h01qs06xv9BAwM9MRnZAHQEXWfuMNP9380sEDVHMxRMUDk9AYGWhL7yO/DnETRMq0lx3O520eFuVqWVLwY74QscFcUlc+h1UdKZ9m34j8phkxYTysrtkwJUm7cBBo6GYBHEAo8LhqCE2KxB671n2742SatLwQYhzw5O27AgMBAAEwDQYJKoZIhvcNAQELBQADgYEANZrPiedgRdPxkwLm091ZNQf68X1g24tUyBtyJgk+Vv9VlugHpNu1Deu3MICZZIHfmqIIvJ3EwbVy13g721Vy52J/Cz4mPRxahDmQoReMxYPD/qRgawYffHqNinvI2SmjSFfI+Dh8Z3Dpgl8u3T5b+EfwjYb4b3unveoDSPzYgtY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
